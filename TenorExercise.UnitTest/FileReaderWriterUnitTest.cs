@@ -15,7 +15,7 @@ namespace TenorExercise.UnitTest
         ITenorReaderWriter _tenorReaderWriter;
         Mock<IFileReader> _fileReader;
         Mock<IFileWriter> _fileWriter;
-
+        
 
         [SetUp]
         void SetUp()
